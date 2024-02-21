@@ -40,7 +40,7 @@ const Navbar = () => {
           <li
             className={`${
               pathname === "/#projects" ? "bg-blue-100" : ""
-            } text-blue-500 font-semibold hover:bg-blue-100  p-2 md:p-3 rounded-full transition duration-500`}
+            } text-blue-500 font-semibold hover:bg-blue-100 p-2 md:p-3 rounded-full transition duration-500`}
           >
             <Link
               href="#projects"
@@ -56,7 +56,7 @@ const Navbar = () => {
           >
             <Link
               href="#contact"
-              className="text-xs flex gap-1 justify-center items-center"
+              className="text-xs md:text-base flex gap-1 justify-center items-center"
             >
               <ContactIcon /> Contacto
             </Link>

@@ -4,11 +4,11 @@ const FeatureSection = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col justify-center items-center w-full py-7 md:py-14 bg-slate-50 mt-10 md:mt-20"
+      className="flex flex-col justify-center items-center w-full md:py-14 bg-slate-50 mt-10 md:mt-20 px-3 py-7 mx-auto"
     >
       <div className="flex flex-col gap-y-3">
         <h1 className="text-3xl md:text-5xl font-semibold text-balance text-center">
-          Logros 
+          Logros
         </h1>
         <p className="text-base md:text-lg text-gray-400 text-balance text-center">
           Haciendo felices a nuestros clientes

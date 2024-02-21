@@ -4,6 +4,8 @@
 
 :root {
   scroll-behavior: smooth;
+  scrollbar-color: rgba(56, 56, 255, 0.671) rgba(177, 177, 177, 0.5);
+  scrollbar-width: thin;
 }
 
 html body {

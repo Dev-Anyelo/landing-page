@@ -13,7 +13,8 @@ const ContactSection = () => {
           Contáctame
         </h1>
         <p className="text-base sm:text-lg text-gray-400 text-balance text-center">
-          ¿Tienes alguna duda o pregunta? ¡No dudes en contactarme!
+          ¿Tienes alguna duda o pregunta? <br className="block sm:hidden" />
+          ¡No dudes en contactarme!
         </p>
       </div>
 

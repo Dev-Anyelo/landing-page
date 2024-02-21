@@ -13,13 +13,13 @@ const ServicesSection = () => {
         <h1 className="text-3xl sm:text-5xl font-semibold text-balance text-center mb-3">
           Nuestros servicios
         </h1>
-        <p className="text-base 2xl:text-lg text-gray-400 w-full lg:max-w-[620px] 2xl:max-w-[660px] text-wrap text-center lg:text-justify overflow-hidden">
+        <p className="text-base 2xl:text-lg text-gray-400 w-full mx-auto lg:max-w-[800px] 2xl:w-[900px] text-balance text-center overflow-hidden">
           Conoce los servicios que ofrecemos para ti. Desde construcción, hasta
           plomería y electricidad. Nos encargamos de cada detalle, asegurando
           que tu proyecto sea un éxito.
         </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-5 items-center">
+      <div className="w-full flex flex-wrap justify-center gap-5 items-center xl:max-w-[1300px] 2xl:max-w-[1400px] mx-auto">
         <CardsProjects
           icon={<HammerIcon />}
           title="Construcción"
