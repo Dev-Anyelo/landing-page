@@ -10,7 +10,7 @@ const ServicesSection = () => {
       className="mt-10 md:m-0 flex flex-col justify-center items-center gap-6 bg-slate-50 py-7 md:py-14"
     >
       <div className="w-full mb-6 max-w-[900px]">
-        <h1 className="text-4xl sm:text-5xl font-semibold text-balance text-center mb-3">
+        <h1 className="text-3xl sm:text-5xl font-semibold text-balance text-center mb-3">
           Nuestros servicios
         </h1>
         <p className="text-base md:text-lg text-gray-400 text-wrap text-center">

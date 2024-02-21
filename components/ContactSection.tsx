@@ -9,7 +9,7 @@ const ContactSection = () => {
       className="flex flex-col justify-center items-center w-full py-7 md:py-14"
     >
       <div className="flex flex-col gap-y-3">
-        <h1 className="text-4xl sm:text-5xl font-semibold text-balance text-center">
+        <h1 className="text-3xl sm:text-5xl font-semibold text-balance text-center">
           Contáctame
         </h1>
         <p className="text-base sm:text-lg text-gray-400 text-balance text-center">

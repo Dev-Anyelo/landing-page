@@ -6,7 +6,7 @@ import ServicesSection from "@/components/ServicesSection";
 
 const Home = () => {
   return (
-    <main className="flex min-h-screen py-10 justify-center flex-col">
+    <main className="flex min-h-screen py-5 md:py-10 justify-center flex-col">
       <HeroSection />
       <ServicesSection />
       <ProjectsSection />

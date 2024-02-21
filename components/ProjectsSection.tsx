@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       className="flex flex-col justify-center items-center mt-10 md:mt-20 gap-6"
     >
       <div className="flex flex-col gap-y-3">
-        <h1 className="text-4xl sm:text-5xl font-semibold text-balance">
+        <h1 className="text-3xl sm:text-5xl font-semibold text-wrap text-center">
           Proyectos Destacados
         </h1>
         <p className="text-base md:text-lg text-gray-400 text-wrap text-center">
