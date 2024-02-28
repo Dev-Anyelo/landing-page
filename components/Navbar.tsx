@@ -10,13 +10,13 @@ import PencilRuler from "@/components/icons/PencilRuler";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <header className="w-full fixed z-10">
+    <header className="w-full fixed z-[999999]">
       <nav className="w-full md:max-w-[500px] mx-auto flex justify-center items-center bg-slate-50 border border-gray-200 p-3 rounded-full shadow-md">
         <ul className="w-full flex justify-center items-center">
           <li
             className={`${
               pathname === "/#home" ? "bg-gray-blue-100" : ""
-            } text-blue-500 font-semibold hover:bg-blue-100  p-2 md:p-3 rounded-full transition duration-500`}
+            } text-blue-500 font-semibold hover:bg-blue-100  p-2 md:p-3 rounded-full transition duration-500 ease-in-out`}
           >
             <Link
               href="#home"
@@ -28,7 +28,7 @@ const Navbar = () => {
           <li
             className={`${
               pathname === "/#services" ? "bg-blue-100" : ""
-            } text-blue-500 font-semibold hover:bg-blue-100  p-2 md:p-3 rounded-full transition duration-500`}
+            } text-blue-500 font-semibold hover:bg-blue-100  p-2 md:p-3 rounded-full transition duration-500 ease-in-out`}
           >
             <Link
               href="#services"
@@ -40,7 +40,7 @@ const Navbar = () => {
           <li
             className={`${
               pathname === "/#projects" ? "bg-blue-100" : ""
-            } text-blue-500 font-semibold hover:bg-blue-100 p-2 md:p-3 rounded-full transition duration-500`}
+            } text-blue-500 font-semibold hover:bg-blue-100 p-2 md:p-3 rounded-full transition duration-500 ease-in-out`}
           >
             <Link
               href="#projects"
@@ -52,7 +52,7 @@ const Navbar = () => {
           <li
             className={`${
               pathname === "/#contact" ? "bg-blue-100" : ""
-            } text-blue-500 font-semibold hover:bg-blue-100 p-2 md:p-3 rounded-full transition duration-500`}
+            } text-blue-500 font-semibold hover:bg-blue-100 p-2 md:p-3 rounded-full transition duration-500 ease-in-out`}
           >
             <Link
               href="#contact"

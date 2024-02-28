@@ -16,48 +16,48 @@ const ProjectsSection = () => {
       </div>
       <div className="px-3">
         <div className="grid grid-cols-3 gap-2 p-2 sm:p-0">
-          <div>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
               alt=""
             />
-          </div>
-          <div>
+          </picture>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
               alt=""
             />
-          </div>
-          <div>
+          </picture>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
               alt=""
             />
-          </div>
-          <div>
+          </picture>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
               alt=""
             />
-          </div>
-          <div>
+          </picture>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
               alt=""
             />
-          </div>
-          <div>
+          </picture>
+          <picture className="shadow-sm rounded-lg overflow-hidden block">
             <img
-              className="h-auto max-w-full rounded-lg"
+              className="h-auto max-w-full rounded-lg hover:scale-125 transition duration-500 cursor-pointer"
               src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
               alt=""
             />
-          </div>
+          </picture>
         </div>
       </div>
     </section>

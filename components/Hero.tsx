@@ -10,7 +10,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="mt-16 md:mt-20 lg:mt-0 flex flex-col gap-4 w-full xl:max-w-[1300px] 2xl:max-w-[1400px] px-3 py-2 mx-auto"
+      className="mt-16 md:mt-20 lg:mt-0 flex flex-col gap-4 w-full h-fit xl:max-w-[1300px] 2xl:max-w-[1400px] px-3 py-2 mx-auto"
     >
       <div className="flex justify-between items-center h-fit">
         <div className="flex flex-col gap-y-5 w-full lg:w-1/2">
@@ -35,7 +35,7 @@ const HeroSection = () => {
               href="/#contact"
               className="w-full flex justify-center items-center lg:justify-start"
             >
-              <Button text="Más información" icon={<RowIcon />} />
+              <Button text="Contáctame" icon={<RowIcon />} />
             </Link>
           </div>
         </div>

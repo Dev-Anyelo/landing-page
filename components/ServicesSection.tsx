@@ -7,7 +7,7 @@ const ServicesSection = () => {
   return (
     <section
       id="services"
-      className="mt-10 md:m-0 flex flex-col justify-center items-center gap-6 bg-slate-50 py-7 md:py-14"
+      className="mt-10 md:mt-0 flex flex-col justify-center items-center gap-6 bg-slate-50 py-7 md:py-14"
     >
       <div className="w-full mb-6 max-w-[900px]">
         <h1 className="text-3xl sm:text-5xl font-semibold text-balance text-center mb-3">
